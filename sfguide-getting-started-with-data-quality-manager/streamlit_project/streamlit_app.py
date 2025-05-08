@@ -18,7 +18,7 @@ from src.Page import set_page
 from dotenv import load_dotenv
 
 # Add all databases you wish the access to this array
-st.session_state.databases = ["DATA_QUALITY"]
+st.session_state.databases = ["DATA_QUALITY", "DEMO_DB"]
 
 load_dotenv(override=True)
 st.session_state["streamlit_mode"] = "SiS"

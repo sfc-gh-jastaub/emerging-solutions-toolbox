@@ -1,0 +1,16 @@
+definition_version: 2
+entities:
+  cursor_streamlit:
+    type: streamlit
+    identifier: cursor_streamlit_app
+    stage: streamlit_stage
+    query_warehouse: adhoc_wh
+    main_file: streamlit_app.py
+    pages_dir: pages/
+    artifacts:
+      - streamlit_app.py
+      - environment.yml
+      - requirements.txt
+      - install.sql
+      - src/
+
